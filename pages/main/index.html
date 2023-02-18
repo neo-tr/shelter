@@ -19,9 +19,9 @@
             <ul class="nav-list">
                 <li id="About-link"><div id="div-about"><a href="#About"><p>About the shelter</p></a></div></li>
                 <div id="div-border"></div>
-                <li id="OurPets-link"><a href="#pets"><p>Our pets</p></a></li>
-                <li id="Help-link"><a href="#Help"><p>Help the shelter</p></a></li>
-                <li id="Contacts-link"><a href="#Contacts"><p>Contacts</p></a></li>
+                <li class="ourPets-link"><a href="#pets"><p>Our pets</p></a></li>
+                <li class="help-link"><a href="#help"><p>Help the shelter</p></a></li>
+                <li class="contacts-link"><a href="#contacts"><p>Contacts</p></a></li>
             </ul>
         </nav>
     </header>
@@ -42,7 +42,7 @@
                     He or she will love you more 
                     than anybody else in the world, 
                     you will see!</p>
-                <a href="#our_pets"><span>Make a friend</span></a>    
+                <a href="#pets"><span>Make a friend</span></a>    
             </div>
         </div>
     </section>
@@ -75,9 +75,122 @@
 
     <section id="pets">
         <div id="pets-content">
-            <h3>Our friends who are looking for a house</h3>
-            <div id="slider"></div>
+            <h3>Our friends who <br> are looking for a house</h3>
+            <div id="slider">
+                <button class="left-button" type="button"></button>
+
+                <a href="#">
+                <div class="Katrine">
+                        <img src="../../assets/images/pets-katrine.png" alt="Katrine" class="image-Katrine">
+                        <p>Katrine</p>
+                        <div class="card-button button-primary"><span class="text" href="#">Learn more</span></div>
+                </div></a>
+
+
+                <a href="#">
+                <div class="Jennifer">
+                    <img src="../../assets/images/pets-jennifer.png" alt="Jennifer" class="pets-image">
+                        <p>Jennifer</p>
+                        <div class="card-button button-primary"><span class="text" href="#">Learn more</span></div>
+                </div></a>
+
+                <a href="#">
+                <div class="Woody">
+                    <img src="../../assets/images/pets-woody.png" alt="Woody" class="pets-image">
+                        <p>Woody</p>
+                        <div class="card-button button-primary"><span class="text" href="#">Learn more</span></div>
+                </div></a>
+
+                <button class="right-button" type="button"></button>
+            </div>
+            <div class="button-know"><a class="text-know" href="../pets/index.html">Get to know the rest</a></div>
         </div>
     </section>
+
+    <section class="help" id="help">
+        <div class="help-content">
+            <h3 class="help-title">How you can help <br>
+                our shelter</h3>
+            <ul class="help-list">
+                <li class="help-item">
+                    <h4>Pet food</h4>
+                </li>
+                <li class="help-item">
+                    <h4>Transportation</h4>
+                </li>
+                <li class="help-item">
+                    <h4>Toys</h4>
+                </li>
+                <li class="help-item">
+                    <h4>Bowls and cups</h4>
+                </li>
+                <li class="help-item">
+                    <h4>Shampoos</h4>
+                 </li>
+                <li class="help-item">
+                    <h4>Vitamins</h4>
+                </li>
+                <li class="help-item">
+                    <h4>Medicines</h4>
+                </li>
+                <li class="help-item">
+                    <h4>Collars / leashes</h4>
+                </li>
+                <li class="help-item">
+                    <h4>Sleeping areas</h4>
+                </li>
+            </ul>
+        </div>
+    </section>            
+
+    <section class="donation">
+        <div class="donation-content">
+            <div class="donation__image">
+                <img src="../../assets/images/donation-dog.png" alt="Dog">
+            </div>
+            <div class="donation_content">
+                <h3>You can also make a donation</h3>
+                <h5>Name of the bank / Type of bank account</h5>
+                <div class="credit-blank">
+                <a href="#!">
+                    <h4 class="credit__card"><p class="credit-text">8380 2880 8028 8791 7435</p></h4>
+                </a></div>
+                <p class="donation__information">Legal information and lorem ipsum dolor sit amet, consectetur
+                    adipiscing elit. Maecenas a ipsum at libero sagittis dignissim sed ac diam. Praesent ultrices
+                    maximus tortor et vulputate. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+            <div class="footer__content">   
+                    <div class="footer__contacts" id="contacts">
+                        <h3 class="footer__title">For questions and suggestions</h3>
+                        <a href="mailto:email@shelter.com" class="footer__email">
+                            <img class="footer-email" src="../../assets/icons/icon-email.svg" alt="email">
+                            <h4>email@shelter.com</h4>
+                        </a>
+                        <a href="tel:+13 674 567 75 54" class="footer__phone">
+                            <img class="footer-phone" src="../../assets/icons/icon-phone.svg" alt="phone">
+                            <h4>+13 674 567 75 54</h4>
+                        </a>
+                    </div>
+                    <div class="footer__location">
+                        <h3 class="footer_title_location">We are waiting for your visit</h3>
+                        <a href="https://goo.gl/maps/mq8xmMoES2JZPP8Z9" target="_blank" class="footer__adress_1">
+                            <img class="footer-point_1" src="../../assets/icons/icon-marker.svg" alt="point">
+                            <h4>1 Central
+                                Street, Boston <br>(entrance from the store)</h4>
+                        </a>
+                        <a href="https://goo.gl/maps/pJcpwEEwipAKJDDu8" target="_blank" class="footer__adress_2">
+                            <img class="footer-point_2" src="../../assets/icons/icon-marker.svg" alt="point">
+                            <h4>18 South
+                                Park, London</h4>
+                        </a>
+                    </div>
+                <img class="footer__puppy" src="../../assets/images/footer-puppy.png" alt="puppy">
+            </div>
+    </footer>
+
 </body>
 </html>
